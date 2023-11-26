@@ -1,6 +1,8 @@
 # ExampleTask
 
-**TODO: Add description**
+When running the custom task with `mix example` from the root directory of this project it works great. However, if installed with `mix archive.build && mix archive.install` an error is returned:
+> ** (UndefinedFunctionError) function HTTPoison.start/0 is undefined (module HTTPoison is not available)
+    HTTPoison.start()
 
 ## Installation
 
@@ -18,4 +20,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/example_task>.
-
